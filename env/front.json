@@ -1,10 +1,10 @@
 {
     "server": {
         "ssl": false,
-        "domain": "localhost",
+        "domain": "ion-plm.ionmobility.net",
         "port": 8001,
         "contextPath": "/docdoku-plm-server-rest",
-        "wsDomain": "localhost"
+        "wsDomain": "ion-plm.ionmobility.net"
     },
     "contextPath": "/",
     "preferLoginWith": false
