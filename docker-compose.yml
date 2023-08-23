@@ -20,7 +20,7 @@ services:
     ports:
       - 8000:80
     volumes:
-      - ./env/front.json:/usr/share/nginx/html/webapp.properties.json
+      - ./env/front-ssl.json:/usr/share/nginx/html/webapp.properties.json
 
   back:
     image: docdoku/docdoku-plm-server:2.6.2
