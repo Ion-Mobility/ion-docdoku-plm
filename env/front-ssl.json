@@ -2,7 +2,7 @@
     "server": {
         "ssl": true,
         "domain": "ion-plm.ionmobility.net",
-        "port": 80,
+        "port": 443,
         "contextPath": "/docdoku-plm-server-rest",
         "wsDomain": "ion-plm.ionmobility.netl"
     },
