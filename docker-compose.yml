@@ -116,7 +116,8 @@ services:
       - ./proxy/ssl:/etc/nginx/ssl
       - ./proxy/nginx.conf:/etc/nginx/conf.d/default.conf
     ports:
-      - 9000:443
+      - 443:443
+      - 80:80
     networks: 
       - network
     depends_on: 
